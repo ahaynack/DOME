@@ -36,10 +36,15 @@ The features available in the current version of DOME are listed below.
 #### Comparison of Generated Mesostructures from the 'Generation Module'
 In this module, generated mesostructures form the 'Generation Module' can be loaded and compared.
 
-## Publications
-coming soon...
-
 ## Installation
+### Installation via conda
+- Open the Anaconda Prompt and type the following:
+  - conda create -n dome_env python=3.12
+  - conda activate dome_env
+  - cd <PATH TO THE DOME REPOSITORY>
+  - pip install -r requirements.txt
+
+## Publications
 coming soon...
 
 ## Acknowledgement
