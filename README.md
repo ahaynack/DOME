@@ -24,7 +24,7 @@ The features available in the current version of DOME are listed below.
   - Bounds of $\alpha$ parameters for grain size group distributions (symmetrical Beta distributions)
 
 #### Calculation of Depth-Dependent Mesostructure Parameters
-- Calculation of
+- Calculation of:
   - Distribution of area fraction
   - Distribution of perimeter lengths
   - Cumulative sample density
@@ -34,6 +34,7 @@ The features available in the current version of DOME are listed below.
 
 ### Comparison Module
 #### Comparison of Generated Mesostructures from the 'Generation Module'
+In this module, generated mesostructures form the 'Generation Module' can be loaded and compared.
 
 ## Publications
 coming soon...
