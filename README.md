@@ -2,8 +2,6 @@
 
 DOME is an open source software package for generating virtual depth-dependent 2D representations of 3D concrete mesostructures. It is implemented in Python. DOME provides a modular GUI to generate and compare mesostructures.
 
-The latest documentation for DOME is available at "LINK COMING SOON".
-
 ## Features
 The features available in the current version of DOME are listed below.
 
