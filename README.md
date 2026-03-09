@@ -41,7 +41,7 @@ In this module, generated mesostructures form the 'Generation Module' can be loa
 - Open the Anaconda Prompt and type the following:
   - conda create -n dome_env python=3.12
   - conda activate dome_env
-  - cd <PATH TO THE DOME REPOSITORY>
+  - cd "PATH TO THE DOME REPOSITORY"
   - pip install -r requirements.txt
 
 ## Publications
