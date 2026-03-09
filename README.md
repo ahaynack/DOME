@@ -9,8 +9,28 @@ The features available in the current version of DOME are listed below.
 
 ### Generation Module
 #### Generation of Aggregate Size Groups
+- Generation of aggregates used for the mesostructure generation by optimization against target grain size distribution.
+- Aggregate size groups are defined by the provided aggregate radii.
+- Definition of input parameters:
+  - Sample geometry (length, width, height)
+  - Target volume fraction of aggregates
+
 #### Distribution of Aggregates
+- Generation of total aggregate distribution by optimization of individual aggregate size group distributions.
+- Definition of input parameters:
+  - Number of bins $n_{\text{bins}}$ (depth levels of aggregates)
+  - Edge percentage $p_{\text{edge}}$ (range of optimization in reference to total sample depth)
+  - Resolution of depth $x_{\text{range}}$
+  - Bounds of $\alpha$ parameters for grain size group distributions (symmetrical Beta distributions)
+
 #### Calculation of Depth-Dependent Mesostructure Parameters
+- Calculation of
+  - Distribution of area fraction
+  - Distribution of perimeter lengths
+  - Cumulative sample density
+- Definition of input parameters:
+  - Density of aggregates
+  - Density of cement matrix
 
 ### Comparison Module
 #### Comparison of Generated Mesostructures from the 'Generation Module'
