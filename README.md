@@ -12,8 +12,8 @@ The features available in the current version of DOME are listed below.
 - Generation of aggregates used for the mesostructure generation by optimization against target grain size distribution.
 - Aggregate size groups are defined by the provided aggregate radii.
 - Definition of input parameters:
-  - Sample geometry (length, width, height)
-  - Target volume fraction of aggregates
+  - Sample geometry $x$, $y$, $z$ (length, width, height)
+  - Target volume fraction of aggregates $F_V$
 
 #### Distribution of Aggregates
 - Generation of total aggregate distribution by optimization of individual aggregate size group distributions.
@@ -29,8 +29,8 @@ The features available in the current version of DOME are listed below.
   - Distribution of perimeter lengths
   - Cumulative sample density
 - Definition of input parameters:
-  - Density of aggregates
-  - Density of cement matrix
+  - Density of aggregates $\rho_{\text{aggr}}$
+  - Density of cement matrix $\rho_{\text{matrix}}$
 
 ### Comparison Module
 #### Comparison of Generated Mesostructures from the 'Generation Module'
